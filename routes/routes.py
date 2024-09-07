@@ -8,7 +8,7 @@ def process_data():
 
 @ch.route('/test')
 def method_name():
-    return  jsonify({"message": "ok"})
+    return  jsonify({"message": "not og"})
 
 @ch.route('/test2')
 def method_name():
