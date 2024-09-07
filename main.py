@@ -1,5 +1,5 @@
 from flask import Flask
-from routes import routes
+from routes import test
 
 app = Flask(__name__)
 
@@ -8,5 +8,5 @@ def home():
     return 'Hello, World!'
 
 if __name__ == '__main__':
-    app.register_blueprint(routes)
+    app.register_blueprint(test)
     app.run(debug=True)
